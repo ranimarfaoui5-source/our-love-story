@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4d1026">
+  <title>Our Love Story ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <nav class="topbar">
+    <a class="brand" href="#home">R <span>♡</span> Y</a>
+    <div class="nav-right">
+      <button class="lang active" data-lang="en">EN</button><span>/</span><button class="lang" data-lang="fr">FR</button>
+      <button class="music-toggle" id="musicToggle" title="Open music player">♫ <span data-en="Our song" data-fr="Notre chanson">Our song</span></button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="kicker" data-en="A little world made for two" data-fr="Un petit monde rien que pour nous">A little world made for two</p>
+        <h1>Our Love<br><em>Story</em></h1>
+        <div class="ornament">──────── ♡ ────────</div>
+        <p class="hero-sub" data-en="Two hearts · one journey · a thousand little dreams" data-fr="Deux cœurs · un chemin · mille petits rêves">Two hearts · one journey · a thousand little dreams</p>
+        <button class="button button-light" id="openLetter"><span>✉</span> <span data-en="Open your letter" data-fr="Ouvre ta lettre">Open your letter</span></button>
+      </div>
+      <div class="hero-art">
+        <div class="moon"></div>
+        <div class="lake"></div>
+        <div class="stars">✦　 ·　 ✧　 ·　 ✦　 ·　 ✧</div>
+        <svg class="swans-hero" viewBox="0 0 520 260" role="img" aria-label="Two elegant white swans forming a heart">
+          <defs>
+            <linearGradient id="feather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#d9c9c6"/></linearGradient>
+            <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e7b9b2" stop-opacity=".65"/><stop offset="1" stop-color="#5b2036" stop-opacity=".05"/></linearGradient>
+          </defs>
+          <ellipse cx="260" cy="208" rx="195" ry="20" fill="url(#water)"/>
+          <path d="M250 190 C198 190 112 203 65 187 C116 229 208 228 260 205 C312 228 404 229 455 187 C408 203 322 190 270 190Z" fill="#f7d9d1" opacity=".65"/>
+          <path d="M250 188 C207 180 163 157 145 120 C126 82 144 50 169 61 C188 70 189 100 182 120 C174 144 202 164 250 178Z" fill="url(#feather)" stroke="#fff9f4" stroke-width="2"/>
+          <path d="M270 188 C313 180 357 157 375 120 C394 82 376 50 351 61 C332 70 331 100 338 120 C346 144 318 164 270 178Z" fill="url(#feather)" stroke="#fff9f4" stroke-width="2"/>
+          <path d="M165 71 C166 40 186 22 205 31 C223 40 214 65 197 78 C186 88 187 105 202 119 C216 132 236 143 252 157 C218 153 178 127 165 100 C160 89 160 79 165 71Z" fill="url(#feather)" stroke="#fff9f4" stroke-width="2"/>
+          <path d="M355 71 C354 40 334 22 315 31 C297 40 306 65 323 78 C334 88 333 105 318 119 C304 132 284 143 268 157 C302 153 342 127 355 100 C360 89 360 79 355 71Z" fill="url(#feather)" stroke="#fff9f4" stroke-width="2"/>
+          <path d="M198 33 Q211 12 227 28 Q238 41 226 58 Q215 71 210 86" fill="none" stroke="#fffaf5" stroke-width="13" stroke-linecap="round"/>
+          <path d="M322 33 Q309 12 293 28 Q282 41 294 58 Q305 71 310 86" fill="none" stroke="#fffaf5" stroke-width="13" stroke-linecap="round"/>
+          <path d="M218 25 Q229 28 237 37 L222 40Z" fill="#b96c65"/><path d="M302 25 Q291 28 283 37 L298 40Z" fill="#b96c65"/>
+          <path d="M207 95 Q260 45 313 95" fill="none" stroke="#e8c2b9" stroke-width="2" stroke-dasharray="2 8" opacity=".8"/>
+          <path d="M250 66 C238 49 214 62 226 78 L260 108 L294 78 C306 62 282 49 270 66 L260 78Z" fill="#b98589" opacity=".75"/>
+        </svg>
+        <div class="art-caption"><span>♡</span><span data-en="where our story feels like home" data-fr="là où notre histoire ressemble à un chez-nous">where our story feels like home</span><span>♡</span></div>
+      </div>
+      <div class="hero-bottom">A KEEPSAKE OF US <span>✦</span> ALWAYS AND FOREVER</div>
+    </section>
+
+    <section class="letter-section section hidden" id="letter">
+      <div class="section-label">01 / <span data-en="A letter from my heart" data-fr="Une lettre de mon cœur">A letter from my heart</span></div>
+      <div class="letter-paper">
+        <div class="wax-seal">R<span>♡</span></div>
+        <p class="script">My love,</p>
+        <div class="letter-copy" data-en>
+          <p>I know our relationship has its difficult days. We face problems, misunderstandings, and moments when our feelings get bigger than our words.</p>
+          <p>I know I can be moody sometimes, and I may not always know how to explain what is happening inside me. I’m still learning, and I want to keep learning how to love you better, listen more carefully, and meet each other with kindness.</p>
+          <p>But even when things are not easy, one thing remains true: I love you so much. I’m grateful that you exist, that you came into my life, and that I get to share this little journey with you. You mean more to me than I can fit into one letter.</p>
+          <p>I don’t need us to be perfect. I hope we keep choosing honesty, patience, laughter, and each other—especially on the days that ask a little more from us.</p>
+        </div>
+        <div class="letter-copy hidden" data-fr>
+          <p>Je sais que notre relation connaît des jours difficiles. Nous traversons des problèmes, des malentendus et des moments où nos émotions sont plus fortes que nos mots.</p>
+          <p>Je sais que je peux parfois être d’humeur changeante et que je ne sais pas toujours expliquer ce qui se passe en moi. J’apprends encore, et je veux continuer à apprendre à mieux t’aimer, à t’écouter avec attention et à nous traiter avec douceur.</p>
+          <p>Mais même quand les choses ne sont pas faciles, une chose reste vraie : je t’aime énormément. Je suis reconnaissante que tu existes, que tu sois entré dans ma vie et que je puisse partager ce petit voyage avec toi. Tu comptes plus pour moi que ce qu’une seule lettre peut contenir.</p>
+          <p>Je n’ai pas besoin que nous soyons parfaits. J’espère que nous continuerons à choisir la sincérité, la patience, les rires et l’un l’autre, surtout pendant les jours plus difficiles.</p>
+        </div>
+        <p class="tunisian">“Nchallah edenya tkoun sehla w hnina aalik kif ma enti hnin aleyya w thebni.”</p>
+        <p class="translation" data-en="May life be gentle and kind to you, just as you are gentle with me and love me." data-fr="J’espère que la vie sera douce et tendre avec toi, comme tu l’es avec moi et comme tu m’aimes.">May life be gentle and kind to you, just as you are gentle with me and love me.</p>
+        <p class="script signoff" data-en="With all my love, always." data-fr="Avec tout mon amour, toujours.">With all my love, always.</p>
+      </div>
+    </section>
+
+    <section class="game-section section" id="game">
+      <div class="section-label">02 / <span data-en="A little game about us" data-fr="Un petit jeu sur nous">A little game about us</span></div>
+      <div class="section-heading">
+        <p class="kicker" data-en="Do you remember, my love?" data-fr="Tu te souviens, mon amour ?">Do you remember, my love?</p>
+        <h2>How well do you know <em>our story?</em></h2>
+        <p data-en="Six little questions about the memories and dreams we share. Pick your answer and see your love score." data-fr="Six petites questions sur nos souvenirs et nos rêves. Choisis tes réponses et découvre ton score d’amour.">Six little questions about the memories and dreams we share. Pick your answer and see your love score.</p>
+      </div>
+      <div class="quiz-card" id="quizCard">
+        <div class="quiz-top"><span id="questionCount">QUESTION 01 / 06</span><span id="scoreLive">♡ 0</span></div>
+        <div class="progress"><span id="progressBar"></span></div>
+        <div id="questionArea">
+          <p class="question" id="questionText"></p>
+          <div class="answers" id="answers"></div>
+          <p class="feedback" id="feedback" aria-live="polite"></p>
+          <button class="button button-wine" id="nextQuestion" disabled>Next question →</button>
+        </div>
+        <div class="result hidden" id="result">
+          <div class="result-heart">♡</div>
+          <p class="kicker" data-en="No matter the score" data-fr="Peu importe le score">No matter the score</p>
+          <h3 id="resultTitle">You know our story</h3>
+          <p id="resultText"></p>
+          <button class="button button-wine" id="restartQuiz" data-en="Play again ↻" data-fr="Rejouer ↻">Play again ↻</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="dreams-section section" id="dreams">
+      <div class="section-label">03 / <span data-en="The dreams we whisper about" data-fr="Les rêves dont on parle tout bas">The dreams we whisper about</span></div>
+      <div class="section-heading">
+        <p class="kicker" data-en="One day, together" data-fr="Un jour, ensemble">One day, together</p>
+        <h2>Our future, <em>our little dreams.</em></h2>
+      </div>
+      <div class="dream-grid">
+        <article class="dream-card japan"><span class="dream-icon">✿</span><p class="dream-title">Japan</p><p data-en="Cherry blossoms, quiet streets, and a thousand photos together." data-fr="Les cerisiers en fleurs, des rues paisibles et mille photos ensemble.">Cherry blossoms, quiet streets, and a thousand photos together.</p><span class="dream-tag" data-en="Our honeymoon wish" data-fr="Notre rêve de lune de miel">Our honeymoon wish</span></article>
+        <article class="dream-card amalfi"><span class="dream-icon">☼</span><p class="dream-title">Amalfi Coast</p><p data-en="Sea views, little cafés, and slow sunsets in Italy." data-fr="La mer, les petits cafés et des couchers de soleil en Italie.">Sea views, little cafés, and slow sunsets in Italy.</p><span class="dream-tag" data-en="Our honeymoon wish" data-fr="Notre rêve de lune de miel">Our honeymoon wish</span></article>
+        <article class="dream-card home"><span class="dream-icon">⌂</span><p class="dream-title" data-en="A big, warm home" data-fr="Une grande maison chaleureuse">A big, warm home</p><p data-en="A place full of peace, laughter, and little family traditions." data-fr="Un foyer rempli de paix, de rires et de petites traditions familiales.">A place full of peace, laughter, and little family traditions.</p><span class="dream-tag" data-en="Our future home" data-fr="Notre futur chez-nous">Our future home</span></article>
+        <article class="dream-card bakery"><span class="dream-icon">♡</span><p class="dream-title" data-en="Our little bakery" data-fr="Notre petite boulangerie">Our little bakery</p><p data-en="Making sweet things together and building a dream side by side." data-fr="Créer de bonnes choses ensemble et construire un rêve côte à côte.">Making sweet things together and building a dream side by side.</p><span class="dream-tag" data-en="A dream with flour on our hands" data-fr="Un rêve avec de la farine sur les mains">A dream with flour on our hands</span></article>
+        <article class="dream-card baby"><span class="dream-icon">✧</span><p class="dream-title" data-en="A family of our own" data-fr="Notre petite famille">A family of our own</p><p data-en="If life allows, children to love, care for, and watch grow in a home full of tenderness." data-fr="Si la vie nous le permet, des enfants à aimer et voir grandir dans un foyer plein de tendresse.">If life allows, children to love, care for, and watch grow in a home full of tenderness.</p><span class="dream-tag" data-en="A dream for the right time" data-fr="Un rêve pour le bon moment">A dream for the right time</span></article>
+      </div>
+    </section>
+
+    <section class="ending">
+      <div class="ending-swans">🦢 <span>♡</span> 🦢</div>
+      <p class="kicker" data-en="Whatever the future brings" data-fr="Quoi que l’avenir nous réserve">Whatever the future brings</p>
+      <h2 data-en="I’m grateful that it’s you." data-fr="Je suis reconnaissante que ce soit toi.">I’m grateful that it’s you.</h2>
+      <p data-en="Not because every day is easy, but because what we share matters to me. Here’s to growing gently, dreaming bravely, and making a home in the little moments." data-fr="Pas parce que chaque jour est facile, mais parce que ce que nous partageons compte pour moi. À nous de grandir avec douceur, de rêver sans peur et de trouver un foyer dans les petits moments.">Not because every day is easy, but because what we share matters to me. Here’s to growing gently, dreaming bravely, and making a home in the little moments.</p>
+      <div class="ending-rule">──────────── ♡ ────────────</div>
+      <p class="script forever" data-en="Always your girl, with love." data-fr="Toujours à toi, avec amour.">Always your girl, with love.</p>
+      <button class="button button-outline" id="readAgain" data-en="Read our letter again ↑" data-fr="Relire notre lettre ↑">Read our letter again ↑</button>
+    </section>
+  </main>
+
+  <div class="music-panel hidden" id="musicPanel">
+    <button class="close-music" id="closeMusic" aria-label="Close music panel">×</button>
+    <p class="kicker" data-en="A song for our little world" data-fr="Une chanson pour notre petit monde">A song for our little world</p>
+    <h3>Charles Aznavour</h3>
+    <p class="song-title">“For me… formidable”</p>
+    <p class="music-note" data-en="Tap play below to listen. Music services may require their own controls; browsers do not allow sound to autoplay reliably." data-fr="Appuie sur lecture ci-dessous. Les services musicaux ont leurs propres commandes ; les navigateurs bloquent souvent la lecture automatique.">Tap play below to listen. Music services may require their own controls; browsers do not allow sound to autoplay reliably.</p>
+    <a class="button button-wine" href="https://www.youtube.com/results?search_query=Charles+Aznavour+For+me+formidable+official" target="_blank" rel="noopener">♫ <span data-en="Listen on YouTube" data-fr="Écouter sur YouTube">Listen on YouTube</span></a>
+  </div>
+  <footer>MADE WITH LOVE <span>♡</span> JUST FOR YOU</footer>
+  <script src="script.js"></script>
+</body>
+</html>
